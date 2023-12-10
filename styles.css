@@ -190,6 +190,25 @@ button:hover, a:hover {
     margin-right: 10px;
   }
 }
+/* Убедитесь, что эти стили идут после всех предыдущих стилей в вашем CSS файле */
+
+/* Стили для блока с фоном */
+.mobile-background {
+  background-color: #2980b9; /* Цвет фона (синий, можно изменить) */
+  color: white; /* Цвет текста */
+  text-align: center;
+  padding: 20px; /* Отступы */
+}
+
+/* Медиа-запрос для мобильных устройств */
+@media only screen and (max-width: 600px) {
+  /* Добавляем стили для блока с фоном на мобильных устройствах */
+  .mobile-background {
+    padding: 10px; /* Уменьшаем отступы */
+    font-size: 14px; /* Уменьшаем размер текста */
+  }
+}
+
 
 
 
