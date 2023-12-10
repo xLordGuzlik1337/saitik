@@ -138,16 +138,15 @@ button:hover, a:hover {
 }
 /* Остальной CSS... */
 
-/* Медиа-запрос для мобильных устройств */
+/* Добавляем стили для мобильных устройств */
 @media only screen and (max-width: 600px) {
-  /* Общие стили */
+  /* Обновляем стили для фона и отступов */
   body {
-    /* Обновленные стили для фона и отступов */
     background-color: #f9f9f9;
     padding: 10px;
   }
 
-  /* Стили для верхнего блока */
+  /* Обновляем стили для верхнего блока */
   header {
     padding: 10px 0;
   }
@@ -160,7 +159,7 @@ button:hover, a:hover {
     font-size: 16px;
   }
 
-  /* Стили для основного контента */
+  /* Обновляем стили для основного контента */
   main {
     padding: 10px;
   }
@@ -174,12 +173,12 @@ button:hover, a:hover {
     font-size: 16px;
   }
 
-  /* Стили для подвала */
+  /* Обновляем стили для подвала */
   footer {
     padding: 5px;
-    background-color: #f2f2f2; /* Изменения в подвале для мобильных устройств */
-    padding: 10px 0; /* Внутренние отступы сверху и снизу */
-    box-shadow: none; /* Удаление тени для подвала на мобильных устройствах */
+    background-color: #f2f2f2;
+    padding: 10px 0;
+    box-shadow: none;
   }
 
   .contact-info span {
@@ -189,39 +188,19 @@ button:hover, a:hover {
   .contact-info a {
     margin-right: 10px;
   }
-}
-/* Убедитесь, что эти стили идут после всех предыдущих стилей в вашем CSS файле */
 
-/* Стили для блока с фоном */
-.mobile-background {
-  background-color: #2980b9; /* Цвет фона (синий, можно изменить) */
-  color: white; /* Цвет текста */
-  text-align: center;
-  padding: 20px; /* Отступы */
-}
-
-/* Медиа-запрос для мобильных устройств */
-@media only screen and (max-width: 600px) {
-  /* Добавляем стили для блока с фоном на мобильных устройствах */
+  /* Обновляем стили для блока с фоном */
   .mobile-background {
-    padding: 10px; /* Уменьшаем отступы */
-    font-size: 14px; /* Уменьшаем размер текста */
+    background-color: #2980b9;
+    color: white;
+    text-align: center;
+    padding: 20px;
   }
-}
-/* Стили для блока с фоном */
-.mobile-background {
-  background-color: #2980b9; /* Цвет фона (синий, можно изменить) */
-  color: white; /* Цвет текста */
-  text-align: center;
-  padding: 20px; /* Отступы */
-}
 
-/* Медиа-запрос для мобильных устройств */
-@media only screen and (max-width: 600px) {
-  /* Добавляем стили для блока с фоном на мобильных устройствах */
+  /* Дополнительные стили для блока с фоном на мобильных устройствах */
   .mobile-background {
-    padding: 10px; /* Уменьшаем отступы */
-    font-size: 14px; /* Уменьшаем размер текста */
+    padding: 10px;
+    font-size: 14px;
   }
 }
 
