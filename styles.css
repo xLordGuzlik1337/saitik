@@ -225,7 +225,7 @@ button:hover, a:hover {
 }
 @media only screen and (max-width: 600px) {
   .content-wrapper{
-    padding-top: 60px; /* Установите нужный отступ, чтобы контент не перекрывался меню */
+    padding-top: 5px; /* Установите нужный отступ, чтобы контент не перекрывался меню */
   }
 }
 
