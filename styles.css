@@ -273,6 +273,12 @@ button:hover, a:hover {
   background-position: center;
   padding: 20px;
 }
+@media (max-width: 768px) {
+  /* Ваши стили для мобильных устройств */
+  .team-member p {
+      display: block;
+  }
+}
 
 
 
