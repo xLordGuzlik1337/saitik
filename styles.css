@@ -14,12 +14,6 @@ body {
   background-repeat: no-repeat; /* Запрещаем повторение фона */
   
 }
-/* Стили для основного контейнера */
-.medical-center {
-  color: red; /* Цвет текста - красный */
-  text-align: center; /* Выравнивание по центру */
-  font-family: Arial, sans-serif; /* Установка шрифта */
-}
 
 /* Стили для подвала */
 footer {
