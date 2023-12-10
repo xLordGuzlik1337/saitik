@@ -273,14 +273,7 @@ button:hover, a:hover {
   background-position: center;
   padding: 20px;
 }
-/* Пример медиа-запроса для мобильных устройств */
-@media only screen and (max-width: 768px) {
-  /* Ваш CSS для мобильных устройств здесь */
-  body {
-      font-size: 14px; /* Пример: уменьшаем размер шрифта для мобильных */
-  }
-  /* Другие стили для мобильных устройств */
-}
+
 
 
 
