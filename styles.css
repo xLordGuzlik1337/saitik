@@ -281,6 +281,56 @@ button:hover, a:hover {
 @media screen and (max-width: 768px) {
     /* Ваши стили для мобильных устройств */
 }
+    /* Медиа-запрос для мобильных устройств */
+@media only screen and (max-width: 600px) {
+    /* Общие стили */
+    body {
+        /* Обновите стили для фона и отступов */
+        background-color: #f9f9f9;
+        padding: 10px;
+    }
+
+    /* Стили для верхнего блока */
+    header {
+        padding: 10px 0;
+    }
+
+    .service-title {
+        font-size: 28px;
+    }
+
+    .nav-item a {
+        font-size: 16px;
+    }
+
+    /* Стили для основного контента */
+    main {
+        padding: 10px;
+    }
+
+    .info-box {
+        padding: 15px;
+    }
+
+    .map-info {
+        padding: 15px;
+        font-size: 16px;
+    }
+
+    /* Стили для подвала */
+    footer {
+        padding: 5px;
+    }
+
+    .contact-info span {
+        font-size: 14px;
+    }
+
+    .contact-info a {
+        margin-right: 10px;
+    }
+}
+
 
 
 
