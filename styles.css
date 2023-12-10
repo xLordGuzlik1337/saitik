@@ -225,7 +225,7 @@ button:hover, a:hover {
 }
 @media only screen and (max-width: 600px) {
   .mobile-content {
-    padding-top: 120px; /* Установите нужный отступ, чтобы контент не перекрывался меню */
+    padding-top: 320px; /* Установите нужный отступ, чтобы контент не перекрывался меню */
   }
 }
 
