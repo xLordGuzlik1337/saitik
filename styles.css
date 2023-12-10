@@ -223,7 +223,7 @@ button:hover, a:hover {
     text-decoration: none;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
   .mobile-content {
     padding-top: 15px; /* Установите нужный отступ, чтобы контент не перекрывался меню */
   }
