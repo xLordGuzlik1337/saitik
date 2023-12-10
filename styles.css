@@ -14,6 +14,12 @@ body {
   background-repeat: no-repeat; /* Запрещаем повторение фона */
   
 }
+/* Стили для основного контейнера */
+.medical-center {
+  color: red; /* Цвет текста - красный */
+  text-align: center; /* Выравнивание по центру */
+  font-family: Arial, sans-serif; /* Установка шрифта */
+}
 
 /* Стили для подвала */
 footer {
@@ -137,7 +143,7 @@ button:hover, a:hover {
   /* Обновляем стили для фона и отступов */
   body {
     background-color: #f9f9f9;
-    padding: 8px;
+    padding: 10px;
   }
 
   /* Обновляем стили для верхнего блока */
@@ -155,15 +161,15 @@ button:hover, a:hover {
 
   /* Обновляем стили для основного контента */
   main {
-    padding: 6px;
+    padding: 10px;
   }
 
   .info-box {
-    padding: 5px;
+    padding: 15px;
   }
 
   .map-info {
-    padding: 8px;
+    padding: 15px;
     font-size: 16px;
   }
 
@@ -171,12 +177,12 @@ button:hover, a:hover {
   footer {
     padding: 5px;
     background-color: #f2f2f2;
-    padding: 5px 0;
+    padding: 10px 0;
     box-shadow: none;
   }
 
   .contact-info span {
-    font-size: 7px;
+    font-size: 14px;
   }
 
   .contact-info a {
@@ -217,9 +223,9 @@ button:hover, a:hover {
     text-decoration: none;
   }
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 600px) {
   .content-wrapper{
-    padding-top: 5px; /* Установите нужный отступ, чтобы контент не перекрывался меню */
+    padding-top: 20px; /* Установите нужный отступ, чтобы контент не перекрывался меню */
   }
 }
 
