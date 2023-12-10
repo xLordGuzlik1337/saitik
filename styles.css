@@ -278,7 +278,10 @@ button:hover, a:hover {
   .team-member p {
       display: block;
   }
+@media screen and (max-width: 768px) {
+    /* Ваши стили для мобильных устройств */
 }
+
 
 
 
