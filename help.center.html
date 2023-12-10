@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Техподдержка - Компьютерный сервис</title>
+    <style>
+        /* ... (остальные стили) ... */
+
+        /* Стили для формы об ошибке */
+        .error-report {
+            text-align: center;
+            max-width: 500px;
+            margin: 20px auto;
+            padding: 30px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.3);
+        }
+
+        .error-report input[type="text"],
+        .error-report textarea {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .error-report textarea {
+            resize: vertical;
+        }
+
+        .error-report input[type="submit"] {
+            padding: 10px 20px;
+            background-color: #009688;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .error-report input[type="submit"]:hover {
+            background-color: #00796b;
+        }
+
+        /* Стили для кнопки "На главную" */
+        .back-to-home {
+            display: block;
+            width: 150px;
+            margin: 20px auto;
+            padding: 10px;
+            background-color: #009688;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+            text-align: center;
+            transition: background-color 0.3s ease;
+        }
+
+        .back-to-home:hover {
+            background-color: #00796b;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!-- ... (остальной HTML код для шапки) ... -->
+    </header>
+
+    <main>
+        <!-- Форма для отчета об ошибке -->
+        <div class="error-report">
+            <h2>Центр помощи - Сообщить об ошибке</h2>
+            <form action="#" method="post"> <!-- Здесь убрал пока указание на скрипт отправки -->
+                <input type="text" name="name" placeholder="Ваше имя" required><br>
+                <input type="email" name="email" placeholder="Ваш Email" required><br>
+                <textarea name="message" rows="6" placeholder="Опишите проблему или ошибку" required></textarea><br>
+                <input type="submit" value="Отправить">
+            </form>
+        </div>
+
+        <!-- Добавлена кнопка для перехода на главную -->
+        <a href="sait.html" class="back-to-home">На главную</a>
+
+        <!-- Остальной контент -->
+    </main>
+
+    <footer>
+        <!-- ... (остальной HTML код для подвала) ... -->
+    </footer>
+</body>
+</html>

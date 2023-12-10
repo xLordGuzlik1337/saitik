@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Контакты</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column; 
+            background-image: url('images/zadniifon.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 100vh;
+        }
+
+        .contact-container {
+            text-align: left;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            padding: 40px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.2);
+            max-width: 600px;
+            width: 80%;
+            margin-top: 50px; 
+        }
+
+        h1 {
+            color: #3498db;
+            margin-bottom: 30px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .contact-details {
+            font-size: 20px;
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        .contact-name {
+            font-weight: bold;
+        }
+
+        footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: #f5f5f5;
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        footer p {
+            margin: 0;
+            color: #777;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 15px 25px;
+            text-decoration: none;
+            color: #fff;
+            background-color: #3498db;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            font-size: 18px;
+            margin-top: 20px;
+        }
+
+        .button:hover {
+            background-color: #2980b9;
+        }
+
+        .button-secondary {
+            background-color: #777;
+        }
+
+        .button-secondary:hover {
+            background-color: #555;
+        }
+
+        .email-link,
+        .address-link {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        /* Стили для кнопки "На главную" */
+        .back-to-home {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 20px;
+            background-color: #009688;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+            transition: background-color 0.3s ease;
+            margin-bottom: 10px;
+        }
+
+        .back-to-home:hover {
+            background-color: #00796b;
+        }
+    </style>
+</head>
+<body>
+    <a href="sait.html" class="back-to-home">На главную</a>
+    <div class="contact-container">
+        <h1>Наши контакты</h1>
+        <ul>
+            <li class="contact-details"><span class="contact-name">Александр:</span> +1234567890</li>
+            <li class="contact-details"><span class="contact-name">Ева:</span> +9876543210</li>
+        </ul>
+        <a href="mailto:royalesanya81@gmail.com" class="button email-link">Связаться: royalesanya81@gmail.com</a>
+        <br>
+        <a href="#" onclick="showMap()" class="button button-secondary address-link"> Мы на карте</a>
+    </div>
+    <footer>
+        <p>© 2023 Компьютерный сервис </p>
+    </footer>
+
+    <script>
+        function showMap() {
+            window.open('https://www.google.com/maps?q=Смирнова+99,+Брест,+Беларусь', '_blank');
+        }
+    </script>
+</body>
+</html>

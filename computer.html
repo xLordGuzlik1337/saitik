@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Компьютеры</title>
+    <style>
+        /* Обновленные стили для эффекта "вау" */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: #ff7f50;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            border-bottom: 4px solid #ff6348;
+        }
+
+        .service-title {
+            font-size: 42px;
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            letter-spacing: 2px;
+        }
+
+        .nav-tabs {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .nav-item {
+            margin-right: 20px;
+            position: relative;
+        }
+
+        .nav-item a {
+            text-decoration: none;
+            color: #333;
+            font-size: 18px;
+            transition: color 0.3s ease;
+        }
+
+        .nav-item a:hover {
+            color: #ff6348;
+        }
+
+        main {
+            text-align: center;
+            padding: 20px;
+            flex: 1;
+        }
+
+        /* Стили для карточек товаров */
+        .catalog-content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .product-card {
+            border: 2px solid #ff6348;
+            border-radius: 15px;
+            width: 300px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+            overflow: hidden;
+        }
+
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+        }
+
+        .product-card img {
+            max-width: 100%;
+            height: auto;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .product-card:hover img {
+            transform: scale(1.05);
+        }
+
+        .product-card h2 {
+            font-size: 22px;
+            margin: 15px 0;
+            font-weight: bold;
+            color: #333;
+            transition: color 0.3s ease;
+        }
+
+        .product-card:hover h2 {
+            color: #ff6348;
+        }
+
+        .product-card p {
+            font-size: 16px;
+            line-height: 1.6;
+            padding: 0 20px;
+            margin-bottom: 15px;
+            color: #555;
+        }
+
+        .order-btn {
+            display: block;
+            margin: 0 auto 15px;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: #fff;
+            background-color: #ff6348;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, transform 0.3s ease-in-out;
+            transform: scale(1);
+        }
+
+        .order-btn:hover {
+            background-color: #ff7f50;
+            transform: scale(1.1);
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="service-title">Компьютеры</h1>
+        <ul class="nav-tabs">
+            <li class="nav-item back-btn">
+                <a href="sait.html" class="return-btn">На главную</a>
+            </li>
+            <li class="nav-item">
+                <a href="catalog.html" class="return-btn">Вернуться к каталогу</a>
+            </li>
+        </ul>
+    </header>
+
+    <main>
+<!-- Ваш код до этой части оставим без изменений -->
+<div class="product-card">
+    <img src="https://rulez.by/upload/webp/upload/iblock/a6c/bcr3yuttjn7vsndqfs8akummks5w4txp.webp" alt="Компьютер 1">
+    <h2>Компьютер TGPC Action 82772 A-X</h2>
+    <div class="product-details">
+        <h3>Общая информация</h3>
+        <p><strong>Дата выхода на рынок (г.):</strong> 2023 г.<br>
+           <strong>Назначение:</strong> игровой<br>
+           <strong>Тип:</strong> стандартный</p>
+        
+        <!-- Добавим остальные детали компьютера в подобном формате -->
+        <h3>Основные</h3>
+        <p><strong>Процессор:</strong> AMD Ryzen 5<br>
+           <strong>Модель процессора:</strong> AMD Ryzen 5 5600<br>
+           <!-- Другие характеристики процессора и т.д. -->
+        </p>
+
+        <!-- Продолжим добавлять характеристики компьютера -->
+
+        <h3>Графика</h3>
+        <p><strong>Видеокарта:</strong> NVIDIA GeForce RTX 3060<br>
+           <strong>Локальная видеопамять (ГБ):</strong> 12<br>
+           <!-- Другие характеристики графики и т.д. -->
+        </p>
+
+        <h3>Интерфейсы</h3>
+        <p><strong>Bluetooth:</strong> Нет<br>
+           <strong>LAN:</strong> Да<br>
+           <!-- Другие характеристики интерфейсов и т.д. -->
+        </p>
+
+        <h3>Функциональные особенности</h3>
+        <p><strong>Корпус:</strong> Destroyer Mesh<br>
+           <strong>Комплектация:</strong> Операционная система без ОС<br>
+           <!-- Другие функциональные особенности и т.д. -->
+        </p>
+    </div>
+    <a href="mailto:ваш_электронный_адрес?subject=Заказ компьютера 1" class="order-btn">Заказать</a>
+</div>
+<!-- Подобные карточки товаров о компьютерах могут быть добавлены здесь -->
+
+
+
+
+

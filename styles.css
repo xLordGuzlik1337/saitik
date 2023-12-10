@@ -1,0 +1,147 @@
+
+footer {
+    position: fixed; /* Фиксированное положение */
+    bottom: 0; /* Размещение внизу страницы */
+    width: 100%; /* Ширина по всей странице */
+    text-align: center; /* Выравнивание по центру */
+    background-color: #f2f2f2; /* Цвет фона (по вашему выбору) */
+    padding: 10px 0; /* Внутренние отступы сверху и снизу */
+  }
+/* Добавляем фон */
+body {
+  background-image: url('images/zadniifon.jpg'); /* Путь к вашему изображению */
+  background-size: cover; /* Размер фона - подогнать под размер экрана */
+  background-repeat: no-repeat; /* Запрещаем повторение фона */
+  
+}
+/* Стили для основного контейнера */
+.medical-center {
+  color: red; /* Цвет текста - красный */
+  text-align: center; /* Выравнивание по центру */
+  font-family: Arial, sans-serif; /* Установка шрифта */
+}
+
+/* Стили для подвала */
+footer {
+  position: fixed; /* Фиксированное положение */
+  bottom: 0; /* Размещение внизу страницы */
+  width: 100%; /* Ширина по всей странице */
+  text-align: center; /* Выравнивание по центру */
+  background-color: #f2f2f2; /* Цвет фона (по вашему выбору) */
+  padding: 10px 0; /* Внутренние отступы сверху и снизу */
+}
+
+/* Добавляем фон */
+body {
+  background-image: url('images/zadniifon.jpg'); /* Путь к вашему изображению */
+  background-size: cover; /* Размер фона - подогнать под размер экрана */
+  background-repeat: no-repeat; /* Запрещаем повторение фона */
+}
+/* ... (ваш предыдущий CSS) */
+
+/* Общие стили для основного контейнера */
+.container {
+  max-width: 1200px; /* Максимальная ширина контейнера */
+  margin: 0 auto; /* Выравнивание по центру */
+  padding: 0 20px; /* Отступы справа и слева */
+}
+
+/* Стили для основного контейнера */
+.medical-center {
+  color: red; /* Цвет текста - красный */
+  text-align: center; /* Выравнивание по центру */
+  font-family: Arial, sans-serif; /* Установка шрифта */
+}
+
+/* Стили для подвала */
+footer {
+  position: fixed; /* Фиксированное положение */
+  bottom: 0; /* Размещение внизу страницы */
+  width: 100%; /* Ширина по всей странице */
+  text-align: center; /* Выравнивание по центру */
+  background-color: #f2f2f2; /* Цвет фона (по вашему выбору) */
+  padding: 20px 0; /* Внутренние отступы сверху и снизу */
+  box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.1); /* Тень для подвала */
+}
+
+/* Добавляем фон */
+body {
+  background-image: url('images/zadniifon.jpg'); /* Путь к вашему изображению */
+  background-size: cover; /* Размер фона - подогнать под размер экрана */
+  background-repeat: no-repeat; /* Запрещаем повторение фона */
+}
+/* Стили для кнопок и ссылок */
+button, a {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+}
+
+button:hover, a:hover {
+  background-color: #2980b9;
+  color: white;
+  transform: scale(1.1);
+}
+/* Стили для обертки контента */
+.content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px; /* Отступ от верхнего края страницы */
+}
+
+/* Стили для блока информации */
+.info-box {
+  background-color: #ffd700; /* Цвет фона */
+  padding: 20px; /* Внутренние отступы */
+  border-radius: 5px; /* Скругление углов */
+  width: 250px; /* Ширина блока */
+  margin-right: 20px; /* Отступ справа от блока */
+  text-align: left; /* Выравнивание текста */
+}
+
+.info-text p {
+  margin: 0; /* Убираем отступы у параграфов */
+}
+.schedule table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 0;
+  font-size: 14px; /* Уменьшение размера шрифта */
+}
+
+.schedule th,
+.schedule td {
+  border: 1px solid #ccc;
+  padding: 6px; /* Уменьшение внутреннего отступа */
+  text-align: center;
+}
+
+.schedule th {
+  background-color: #f2f2f2;
+}
+
+.schedule td:first-child {
+  font-weight: bold;
+}
+.about-us-btn .dropdown-content {
+  background-image: url('images/zadniifon.jpg'); /* Замените 'path/to/your/image.jpg' на путь к вашему изображению */
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+

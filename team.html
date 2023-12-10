@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Наша команда</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <style>
+        /* Стили для фона страницы */
+        body {
+            background-image: url('images/zadniifon.jpg');
+            background-size: cover;
+            background-position: center;
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: white;
+        }
+
+        /* Основные стили для контента */
+        .content {
+            text-align: center;
+            padding: 50px;
+        }
+
+        /* Стили для каждого участника команды */
+        .team-member {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 30px;
+            background-color: rgba(255, 255, 255, 0.2);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Добавляем тень */
+            transition: transform 0.3s ease; /* Анимация при наведении */
+        }
+
+        .team-member:hover {
+            transform: translateY(-5px); /* Поднимаем блок при наведении */
+        }
+
+        .team-member img {
+            width: 250px; /* Увеличиваем размер фотографии */
+            height: 250px; /* Увеличиваем размер фотографии */
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+            border: 4px solid white;
+            box-sizing: border-box;
+            transition: transform 0.3s ease; /* Анимация для фото */
+        }
+
+        .team-member img:hover {
+            transform: scale(1.1); /* Увеличиваем фотографию при наведении */
+        }
+
+        .team-member h2 {
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+
+        .team-member p {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        /* Стили для кнопки "На главную" */
+        .back-btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+            transition: background-color 0.3s ease;
+            margin-bottom: 20px; /* Добавленный стиль для отступа кнопки от заголовка */
+        }
+
+        .back-btn:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>Наша команда</h1>
+        <!-- Перемещенная кнопка "На главную" -->
+        <a href="sait.html" class="back-btn">На главную</a>
+        <div class="team-member">
+            <img src="https://sun9-77.userapi.com/impg/535BsUE3BOcCDXEQ0bXmXvKCtcftYniZdAsLsQ/BWeoM5yHaE0.jpg?size=720x1280&quality=96&sign=16a47e7ec3fefec68a8b7e918499a17b&type=album" alt="Фотография члена команды">
+            <h2>Радкович Дмитрий</h2>
+            <p>Дима – наш творческий взрыв энергии. Его неиссякаемый запас идей всегда помогает найти нестандартные решения для любой задачи. Умение вдохновлять команду и превращать идеи в реальность делает его ключевым игроком в нашей команде.</p>
+        </div>
+        <div class="team-member">
+            <img src="https://sun9-33.userapi.com/impg/bQBRYIkZdLyaz0lefchWN53fAQZFMVOj71S5XA/gcUUgUw7Eaw.jpg?size=720x1280&quality=95&sign=4ec32e650462045524c85f38c0644dc9&type=album" alt="Фотография члена команды">
+            <h2>Давидчик Александр</h2>
+            <p>Александр – наш гуру технологий. Он виртуозно владеет различными языками программирования и всегда на шаг впереди в сфере инноваций. Его умение находить эффективные решения для сложных задач делает его неоценимым членом команды.</p>
+        </div>
+        <div class="team-member">
+            <img src="https://sun9-36.userapi.com/impg/UY6dgPBraoWDYp2UTvSpLhpyOJ-NNwotLp_s8g/GkeG9h2-gF8.jpg?size=720x1280&quality=96&sign=6b73430a52607267ac74fce05446cce3&type=album" alt="Фотография третьего члена команды">
+            <h2>Телятник Максим</h2>
+            <p>Максим - творческий стратег. Его умение видеть перспективы там, где другие видят сложности, помогает нам строить инновационные пути. Благодаря своей аналитической скрупулезности, он точно находит ключевые решения для самых сложных задач. Его способность вдохновлять и мотивировать других делает его ценным игроком в нашей команде."
+                .</p>
+        </div>
+    </div>
+</body>
+</html>

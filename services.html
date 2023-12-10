@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Наш сервис</title>
+    <link rel="stylesheet" href="styles.css"> 
+    <style>
+        /* Стили для страницы Услуги */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f3f3;
+        }
+
+        /* Дополнительные стили для блока услуг */
+        .service-details {
+            text-align: center;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .service-details h2 {
+            font-size: 28px;
+            color: #333;
+            margin-bottom: 30px;
+        }
+
+        .service {
+            border: 1px solid #ccc;
+            padding: 20px;
+            border-radius: 5px;
+            width: 60%;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            background-color: #fff;
+            transition: box-shadow 0.3s, transform 0.3s;
+            text-align: left;
+        }
+
+        .service h3 {
+            margin-top: 0;
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 10px;
+            transition: color 0.3s;
+        }
+
+        .service p {
+            color: #666;
+            transition: color 0.3s;
+        }
+
+        .price {
+            color: #009688;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        /* Стили для кнопки "На главную" и "Заказать" */
+        .back-to-home {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #009688;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+            transition: background-color 0.3s ease;
+            margin-bottom: 20px;
+        }
+
+        .back-to-home:hover {
+            background-color: #00796b;
+        }
+
+        /* Стили для поля поиска */
+        .search-container {
+            text-align: center;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #searchInput {
+            width: 60%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        /* Стили для кнопки "Поиск" и "Очистить" */
+        #searchButton, #clearButton {
+            padding: 10px 20px;
+            background-color: #009688;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            transition: background-color 0.3s ease;
+            cursor: pointer;
+            margin-left: 10px;
+        }
+
+        #searchButton:hover, #clearButton:hover {
+            background-color: #00796b;
+        }
+
+        /* Стили для выделения текста при наведении */
+        .service:hover {
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transform: scale(1.02);
+        }
+
+        .service:hover h3 {
+            color: #009688;
+        }
+
+        .service:hover p {
+            color: #333;
+        }
+        /* Эффект пульсации для кнопки "Заказать" */
+        #orderButton {
+            animation: pulse 1.5s infinite;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+        
+    </style>
+</head>
+<body>
+
+    <div class="service-details">
+        <div style="display: flex; align-items: center;">
+            <!-- Кнопка "На главную" -->
+            <a href="sait.html" class="back-to-home">На главную</a>
+
+            <!-- Поле поиска -->
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Поиск по услугам...">
+                <button id="searchButton">Поиск</button>
+                <button id="clearButton">Очистить</button> <!-- Новая кнопка очистки -->
+            </div>
+        </div>
+
+        <h2>Наши услуги</h2>
+
+        <div class="service">
+            <h3>Обслуживание и диагностика ПК</h3>
+            <p>Мы предоставляем полное обслуживание и диагностику вашего компьютера, включая проверку аппаратной части и удаление вредоносного ПО. Наша команда профессионалов поможет вашему ПК работать на максимальной производительности.</p>
+            <p class="price">Стоимость: $50</p>
+        </div>
+
+        <div class="service">
+            <h3>Обновление программного обеспечения</h3>
+            <p>Мы поможем вам обновить операционную систему и другое программное обеспечение на вашем компьютере. Гарантируем безопасность и стабильность обновлений.</p>
+            <p class="price">Стоимость: $30</p>
+        </div>
+
+        <div class="service">
+            <h3>Резервное копирование данных</h3>
+            <p>Мы создадим надежную копию ваших данных, чтобы защитить их от потери. Гибкий подход к настройке и регулярное обновление копий данных.</p>
+            <p class="price">Стоимость: $40</p>
+        </div>
+
+        <div class="service">
+            <h3>Удаленная поддержка</h3>
+            <p>Мы предоставляем удаленную техническую поддержку для вашего компьютера. Решаем проблемы онлайн и обеспечиваем быструю помощь.</p>
+            <p class="price">Стоимость: $25</p>
+        </div>
+
+        <div class="service">
+            <h3>Настройка сети и интернета</h3>
+            <p>Наши специалисты помогут настроить вашу домашнюю сеть и обеспечить стабильное подключение к интернету.</p>
+            <p class="price">Стоимость: $35</p>
+        </div>
+
+        <!-- Кнопка "Заказать" -->
+        <button id="orderButton" class="back-to-home">Заказать</button>
+
+    </div>
+
+    <!-- Скрипт для поиска по услугам -->
+    <script>
+        document.getElementById('searchButton').addEventListener('click', function() {
+            var input, filter, services, service, title, i, txtValue;
+            input = document.getElementById('searchInput');
+            filter = input.value.toUpperCase();
+            services = document.getElementsByClassName('service');
+
+            for (i = 0; i < services.length; i++) {
+                service = services[i];
+                title = service.querySelector('h3');
+                txtValue = title.textContent || title.innerText;
+
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    service.style.display = '';
+                } else {
+                    service.style.display = 'none';
+                }
+            }
+        });
+
+        // Добавляем функционал для кнопки "Очистить"
+        document.getElementById('clearButton').addEventListener('click', function() {
+            document.getElementById('searchInput').value = ''; // Очистка поля поиска
+            var services = document.getElementsByClassName('service');
+            for (var i = 0; i < services.length; i++) {
+                services[i].style.display = ''; // Показываем все услуги
+            }
+        });
+    </script>
+
+    <!-- Скрипт для перенаправления на почту -->
+    <script>
+        document.getElementById('orderButton').addEventListener('click', function() {
+            window.location.href = 'mailto:royalesanya81@gmail.com';
+        });
+    </script>
+
+</body>
+</html>

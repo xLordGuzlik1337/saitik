@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог товаров</title>
+    <style>
+        /* Ваши стили */
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+        
+
+        header {
+            background-color: #ff7f50;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            border-bottom: 4px solid #ff6348;
+        }
+
+        .service-title {
+            font-size: 42px;
+            margin: 0;
+            letter-spacing: 2px;
+        }
+
+        .nav-tabs {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .nav-item {
+            margin-right: 20px;
+            position: relative;
+        }
+
+        .nav-item a {
+            text-decoration: none;
+            color: #333;
+            font-size: 18px;
+            transition: color 0.3s ease;
+        }
+
+        .nav-item a:hover {
+            color: #ff6348;
+        }
+
+        .category-list {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            font-size: 24px;
+        }
+
+        .category-item {
+            margin: 0 15px;
+            cursor: pointer;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            background-color: #ff7f50;
+            color: white;
+            border-radius: 30px;
+            padding: 10px 20px;
+            border: 2px solid transparent;
+            font-size: 18px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            text-decoration: none;
+            position: relative;
+        }
+
+        .category-item:hover {
+            background-color: #ff6348;
+            transform: translateY(-3px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+        }
+
+        .category-item a::after {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 2px;
+            background-color: white;
+            bottom: -3px;
+            left: 0;
+            transform: scaleX(0);
+            transform-origin: right;
+            transition: transform 0.3s ease;
+        }
+
+        .category-item a:hover::after {
+            transform: scaleX(1);
+            transform-origin: left;
+        }
+        
+        main {
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Обновленные стили для карточек товаров */
+        .catalog-content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        /* Ваши стили для карточек товаров остаются здесь */
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="service-title">Каталог товаров</h1>
+        <div class="category-list">
+            <div class="category-item">
+                <a href="noutbuki.html">Ноутбуки</a>
+            </div>
+            <div class="category-item">
+                <a href="computer.html">Компьютеры</a>
+            </div>
+            <div class="category-item">
+                <a href="myshki.html">Мышки</a>
+            </div>
+            <div class="category-item">
+                <a href="klaviatury.html">Клавиатуры</a>
+            </div>
+        </div>
+        <ul class="nav-tabs">
+            <li class="nav-item back-btn">
+                <a href="sait.html">На главную</a>
+            </li>
+        </ul>
+    </header>
+
+    <main>
+        <div class="catalog-content">
+            <!-- Карточки товаров остаются здесь -->
+            
+        </div>
+    </main>
+
+    <footer>
+        <!-- Здесь может быть ваш подвал, если необходимо -->
+    </footer>
+</body>
+</html>

@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Компьютерный сервис</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        
+        
+        
+        /* Общие стили */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f3f3;
+        }
+
+        /* Стили для верхнего блока */
+        header {
+            background-color: #3498db;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .service-title {
+            font-size: 36px;
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .nav-tabs {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .nav-item {
+            margin-right: 20px;
+            position: relative;
+        }
+
+        .nav-item a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+        }
+        
+
+        /* Стили для выпадающего меню */
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #3498db;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+            z-index: 1;
+            flex-direction: column;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+
+        .nav-item:hover .dropdown-content {
+            display: flex;
+        }
+
+        .dropdown-content a {
+            padding: 12px 16px;
+            display: block;
+            text-decoration: none;
+            color: white;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #2980b9;
+        }
+
+        /* Стили для основного контента */
+        main {
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Стили для блока услуг */
+        .services {
+            display: none;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .service {
+            border: 1px solid #ccc;
+            padding: 10px;
+            border-radius: 5px;
+            width: 30%;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            background-color: #fff;
+        }
+
+        .service h3 {
+            margin-top: 0;
+            font-size: 20px;
+            color: #333;
+        }
+
+        .price {
+            color: #009688;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        /* Стили для подвала */
+        footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: #f5f5f5;
+            padding: 10px;
+        }
+
+        .contact-info {
+            display: flex;
+            align-items: center;
+        }
+
+        .contact-info span {
+            font-size: 16px;
+            margin-right: 5px;
+        }
+
+        .contact-info a {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: #777;
+            margin-right: 20px;
+        }
+
+        .contact-info a:last-child {
+            margin-right: 0;
+        }
+
+        .contact-info a img {
+            width: 32px;
+            height: 32px;
+            margin-left: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 class="service-title">Компьютерный сервис</h1>
+        <ul class="nav-tabs">
+            <header>
+                <!-- ... -->
+                <ul class="nav-tabs">
+                    <!-- ... -->
+                </ul>
+                <div class="catalog-btn">
+                </div>
+            </header>
+            
+            
+            
+            <li class="nav-item services-btn">
+                <a href="services.html">Услуги</a>
+            </li>
+            <li class="nav-item contacts-btn">
+                <a href="contacts.html">Контакты</a>
+            </li>
+            <li class="nav-item about-us-btn">
+                <a href="#">О нас</a>
+                <div class="dropdown-content">
+                    <a href="about.html">О компании</a>
+                    <a href="team.html">Наша команда</a>
+                </div>
+            </li>
+            <li class="nav-item support-btn">
+                <a href="help.center.html">Центр помощи</a> <!-- Заменил ссылку на "Центр помощи" -->
+                <div class="dropdown-content">
+                </div>
+            </li>
+            <li class="nav-item catalog-btn">
+                <a href="catalog.html">Каталог товаров</a>
+                
+            </li>
+        </ul>
+    </header>
+
+    <main>
+        <div class="content-wrapper">
+            <div class="info-box">
+                <div class="info-text">
+                    <h2>Добро пожаловать на наш сайт!</h2>
+                    <p>Мы предлагаем качественные услуги по обслуживанию компьютеров.</p>
+                    <!-- Другие параграфы или текст по вашему желанию -->
+                </div>
+            </div>
+    
+            <div class="map-info" style="background-color: #f0f0f0; padding: 20px; text-align: center; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+                <p style="margin-bottom: 15px; font-size: 18px;">Мы находимся здесь по адресу Писателя Смирнова 99, город Брест, Беларусь!</p>
+                <a href="https://www.google.com/maps/dir//%D1%83%D0%BB.+%D0%9F%D0%B8%D1%81%D0%B0%D1%82%D0%B5%D0%BB%D1%8F+%D0%A1%D0%BC%D0%B8%D1%80%D0%BD%D0%BE%D0%B2%D0%B0+99,+%D0%91%D1%80%D0%B5%D1%81%D1%82,+%D0%91%D1%80%D0%B5%D1%81%D1%82%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C/@52.1094545,23.6415191,16z/data=!4m8!4m7!1m0!1m5!1m1!1s0x47210a2c14fd9f73:0x511def32ba3657c9!2m2!1d23.6432238!2d52.1092842?hl=ru&entry=ttu" target="_blank" style="text-decoration: none; color: #4285F4; font-weight: bold;">Открыть на карте</a>
+            </div>
+            
+        </div>
+        <!-- Остальной контент -->
+    </main>
+    
+
+   
+    
+<script>
+    function toggleServices() {
+        const services = document.getElementById('services');
+        services.style.display = (services.style.display === 'block') ? 'none' : 'block';
+    }
+</script>
+<!-- ... -->
+</div>
+    <footer style="
+    min-height: 0px; /* Минимальная высота подвала */
+    width: 100%; /* Ширина подвала */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+">
+    <div class="contact-info" style="
+        display: flex;
+        align-items: center;
+    ">
+        <a href="mailto:royalesanya81@gmail.com" style="
+            text-decoration: none;
+            color: #777;
+            margin-right: 20px;
+            display: flex;
+            align-items: center;
+        ">
+            <span style="font-size: 16px; margin-right: 5px;">royalesanya81@gmail.com</span>
+        </a>
+        <a href="tel:+1234567890" style="
+            text-decoration: none;
+            color: #777;
+            margin-right: 20px;
+            display: flex;
+            align-items: center;
+        ">
+            <span style="font-size: 16px;">+123 456 7890</span>
+        </a>
+    </a>
+    <p style="margin-left: 190px; margin-right: 200px;">© 2023 Компьютерный сервис</p>
+    <a href="https://www.instagram.com/lesta.studio/" target="_blank" style="
+                margin-left: auto;
+                text-decoration: none;
+    ">
+        <img src="https://store-images.s-microsoft.com/image/apps.31997.13510798887167234.6cd52261-a276-49cf-9b6b-9ef8491fb799.30e70ce4-33c5-43d6-9af1-491fe4679377" alt="Instagram" style="width: 32px; height: 32px;">
+    </a>
+    <a href="https://vk.com/mirtankov" target="_blank" style="
+        margin-left: 10px;
+        text-decoration: none;
+    ">
+        <img src="https://pngicon.ru/file/uploads/vk.png" alt="VK Icon" style="width: 32px; height: 32px;">
+    </a>
+</div>
+</footer>
+<style>
+    /* ... */
+    /* Добавляем анимацию для основного контента */
+    main {
+        opacity: 0;
+        transform: translateY(-20px);
+        transition: opacity 0.5s ease, transform 0.5s ease;
+    }
+
+    main.loaded {
+        opacity: 1;
+        transform: translateY(0);
+    }
+</style>
+<script>
+    // Добавляем класс "loaded" после загрузки страницы для анимации основного контента
+    document.addEventListener("DOMContentLoaded", function() {
+        const mainContent = document.querySelector('main');
+        mainContent.classList.add('loaded');
+    });
+</script>
+<!-- Остальной контент -->
+</main>
+
+<!-- Добавляем блок услуг с идентификатором 'services' -->
+<div class="services" id="services">
+    <!-- Здесь вы можете добавить содержимое блока услуг, если необходимо -->
+</div>
+
+<!-- ... (ваш текущий код для подвала здесь) ... -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

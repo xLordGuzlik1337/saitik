@@ -1,0 +1,5 @@
+DirectoryIndex sait.html
+
+RewriteEngine On
+RewriteRule ^$ /sait.html [L]
+
