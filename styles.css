@@ -295,43 +295,6 @@ body {
     padding-top: 20px;
   }
 }
-/* Стили для основного контента на мобильных устройствах */
-@media screen and (max-width: 600px) {
-  main {
-      padding: 10px;
-  }
-
-  .info-box {
-      margin-bottom: 20px;
-      padding: 15px;
-  }
-
-  .map-info {
-      padding: 15px;
-  }
-}
-
-/* Стили для подвала на мобильных устройствах */
-@media screen and (max-width: 600px) {
-  footer {
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-  }
-
-  .contact-info {
-      flex-direction: column;
-      align-items: center;
-  }
-
-  .contact-info a {
-      margin: 5px 0;
-  }
-
-  .contact-info p {
-      margin: 10px 0;
-  }
-}
 
 
 
